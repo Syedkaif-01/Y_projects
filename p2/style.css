@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:white;
+    font-family: "Teko", sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    /* width: 100%;
+    height: 100%; */
+    background-color:black;
+    /* background-color: black; */
+}
+
+#page1{
+    min-height: 100vh;
+    width: 100%;
+    /* background-color:#0F0D0D; */
+    /* background-color: black; */
+}
+
+header{
+    /* background-color: white; */
+    height: 4vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5vw 2vw;
+
+}
+
+.duo-logo h1{
+    font-size: 2.5vw;
+    font-weight: 100;
+}
+
+.navbar{
+display: flex;
+align-items: center;
+gap: 1vw;
+}
+
+
+.links {
+   
+    text-transform: uppercase;
+    font-weight: 200;
+    position: relative;
+}
+
+.links:nth-child(1)::after{
+content: "";
+width: 100%;
+height: 0.2vw;
+background-color: white;
+position: absolute;
+bottom: 0;
+left: 0;
+}
+
+a{
+text-decoration: none;
+}
+
+
+.white-circle{
+    background-color: white;
+  height: 1vw;
+  width: 1vw;
+    border-radius: 50%;
+}
+
+.pointer{
+cursor: pointer;
+}
+
+#page1>h1 {
+    font-size: 10vw;
+    font-weight: 100;
+    line-height: 0.95;
+    /* text-align: center; */
+    /* padding-top: 8vw; */
+
+
+
+}
+.anime-text1{
+    margin-top: 15vw;
+    margin-left:20vw;
+}
+
+.anime-text2{
+    margin-left:30vw;  
+    
+}
+#video-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+}
+
+video{
+    width: 50%;
+    
+}
+
+
+#page2{
+    margin-top: 15vw;
+    min-height: 150vh;
+    width: 100%;
+   /* background-color: pink; */
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   /* justify-content: space-between; */
+   padding: 5vw 3vw;
+   gap: 5vw;
+
+}
+#page2 h1{
+    font-size: 15vw;
+    font-weight: 200;
+    color: black;
+}
+
+#page2-parts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40vw;
+}
+#page-left{
+    color: black;
+    font-size: 1.8vw;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+#page-right{
+    font-size: 1.5vw;
+    color: black;
+    font-family: 200;
+    display: flex;
+    flex-direction: column;
+}
+
+#page-right button{
+    background-color: black;
+    border-radius: 1vw;
+    border:none;
+padding:0.5vw;
+}
