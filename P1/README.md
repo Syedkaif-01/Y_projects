@@ -1,0 +1,2 @@
+# project 1
+Its a replica of an Award winning website named <a href="https://twogood.com.au/ ">Two Good</a> where i have recrate animation of the webpage using animation library gsap and scroll behaviour scroll locomotive
