@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    width: 100%;
+    /* height: 100%; */
+}
+
+.container {
+    width: 100%;
+    height: 700vh;
+    background-color: rgba(0, 0, 0, 0.815);
+    position: relative;
+}
+
+.container-box {
+    width: 100%;
+    /* height: 30vh;*/
+    background-color: rgba(0, 0, 0, 0.562);
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    left: 0;
+}
