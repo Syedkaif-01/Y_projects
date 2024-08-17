@@ -69,7 +69,13 @@ frames.forEach(frame => {
 
 
 
+//Functtions i have leanred here 
+// lerp interpolation -> const lerp = (x, y, a) => x * (1 - a) + y * a;
 
+//to get the dimensions 
+// getBoundingClientRect()
+// to map the range 
+// gsap.utils.mapRange()
 
 
 
